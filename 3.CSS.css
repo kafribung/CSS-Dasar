@@ -1,0 +1,33 @@
+h1 {
+	/*Pemberian warnah ada 3:
+	1.nama warnah
+	2. hexa desimal (#ff2346)
+	3. rgb */
+	color: rgb(60,345,100);
+	text-transform: capitalize;
+}
+
+p{
+	/*text-align ada 4:
+	1.right
+	2.left
+	3.center
+	4.justify*/
+	text-align: justify;
+	/*text-deocratoion:
+	1.underline
+	2.overline
+	3.line-through*/
+	text-decoration: line-through;
+	text-indent: 10%;
+	/*text-transform ada 3:
+	1.lowercase
+	2.uppercase
+	3.capitalize (untuk huruf pertama kalimat*/
+	text-transform:uppercase;
+	
+	letter-spacing: 10px;
+	word-spacing: 5px; 
+
+
+}

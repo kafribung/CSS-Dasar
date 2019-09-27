@@ -1,0 +1,10 @@
+/*Walaupun selueuh teks didalam body dirubah menjadi warnah salmon, a tidak akan berubah*/
+body {
+	color:salmon;
+}
+
+/*Agar elemen HTML a berubah maka tambahkan inherit sebagai pewarisan*/
+/*a akan mewarisi seluruh property yang di wariskan body (parents)*/
+a {
+	color: inherit;
+}

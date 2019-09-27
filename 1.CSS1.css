@@ -1,0 +1,14 @@
+.bung{
+	color: salmon;
+	font-size: 30px; 
+}
+sup	{
+	color: green;
+}
+em {
+	font-family: arial;
+}
+sub {
+	color: lightblue;
+	font-weight: bold;
+}

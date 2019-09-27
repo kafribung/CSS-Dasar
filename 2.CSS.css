@@ -1,0 +1,18 @@
+h2{
+	font-size: 2em;
+	font-style: italic;
+	font-weight: lighter;
+
+}
+h6 {
+	font-family: verdana;
+	font-size: 50px;
+	font-style: oblique;
+	
+}
+p{
+	line-height:20px;
+	font-family: serif;
+	font-variant:small-caps;
+
+}

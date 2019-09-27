@@ -1,0 +1,51 @@
+/*Psudo class LINK terbagi 4 :
+1. link  : Tampilan link default;
+2. hover : Tampilan ketika kursor berada diatas link
+3. active : Tampilan pada saat link diklik dan ditahan
+4. visited : Tampilan pada saat link sudah diklik */
+
+.psudo:link {
+	color: yellow;
+}
+.psudo:visited {
+	color:green;
+}
+.psudo:active{
+	font-family: arial;
+	color: orange;
+
+}
+.psudo:hover {
+	font-size: 50px;
+}
+
+/*Psudo class ELEMEN Link terbagi 3:
+1.first-child : anak pertama
+2.last-child  : anak terakhir
+3.nth-chil(parameter) : anak yang ditentukan*/
+
+/*Parameter 
+1. (2n) kelipatan 2
+2. (2n -1) : mulai dari 2 tapi dikurang 1*/
+
+li:first-child a{
+	color: salmon;
+}
+
+li:last-child a{
+	color:pink;
+}
+li:nth-child(3n-1) a {
+	color: black;
+}
+
+/*Psudo Class 2 ELEMEN  : mencari elemen yang deluan ditemukan (tapi semua elemen harus sama
+1.last-of-type
+2.first-of-type*/
+
+p:first-of-type {
+	/*Mencari elemen p yang terakhir*/
+	word-spacing: 10px;
+	color: rgb(20,30,100);
+
+}

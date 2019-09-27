@@ -1,0 +1,13 @@
+body {
+	background-color: ;
+	background-image: url(4.backgorund/4.jpg);
+	/*background-position gabungkan antara left,center,right atau top,bottom 
+	(Agar dapat berfungsi matikan back repeat)*/
+	background-position: ;
+	background-repeat:  repeat-y repeat-x;
+
+	/*Value Background-size= cover (full) contain (segah dari cover)*/
+	background-size: none;
+}
+
+ 

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+	<style type="text/css">
+		/*Kenapa .kafri yang deluan diekseksi padahal dia dideklarasikan paling awal karena class specificitynya lebih tinggi*/
+		/*Cara hitungnya : 0 0 0 0*/
+		/*                 inline, id, class, elemen html, setiap selektor diberi satu jika terpenuhi (Jadi: .kafri=10 dan p=1)*/
+		.kafri {
+			color: red;
+		}
+
+		p {
+			color: gray;
+		}
+		/*Pada umumnya css yang terakhir itu yg akan deluan di eksekusi
+ 		p {
+ 			color: blue; 
+ 		}*/
+
+ 		ul#kesukaan li {
+ 			color: green;
+ 		}
+
+ 		ul#kesukaan li.favorit {
+ 			color: red;
+ 		}
+
+
+
+	</style>
+</head>
+<body>
+	<h1>Belajar CSS</h1>
+	<p class="kafri">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+	<ul id="kesukaan">
+		<li>Ayam Goreng</li>
+		<li class="favorit">Nasi Goreng</li>
+		<li>Pangsit</li>
+	</ul>
+</body>
+</html>
